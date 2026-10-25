@@ -3,8 +3,8 @@
 The repository is suitable for a private research handoff. Before a complete
 public release, the authors still need to provide or resolve:
 
-- Original manuscript assets: `arxiv.sty`, `orcid.pdf`, and every file under
-  `figs/` referenced by `paper.tex`.
+- Remaining manuscript assets: `arxiv.sty`, `orcid.pdf`, and figures referenced
+  by `paper.tex` other than the included `figs/Problem.png`.
 - A reuse license for the original code, paper, and derived prediction artifacts.
 - Dataset acquisition instructions with the exact GCS block split manifest.
 - Approved checkpoint distribution links, if trained weights will be shared.
