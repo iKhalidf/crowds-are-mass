@@ -1,0 +1,14 @@
+-r requirements-results.txt
+# Install a matching torch / torchvision pair for your CPU or CUDA platform.
+torch>=2.0
+torchvision
+einops
+hydra-core
+joblib
+omegaconf
+pandas
+pillow
+scikit-learn
+scipy
+timm
+tqdm

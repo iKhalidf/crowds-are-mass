@@ -1,0 +1,261 @@
+{
+  "clips": 361,
+  "kappa": 8,
+  "quartiles": [
+    13.124547958374023,
+    16.766754150390625,
+    20.10309600830078
+  ],
+  "rows": [
+    {
+      "stratum": "flat",
+      "n": 92,
+      "model": "Stream-CDF",
+      "countMAE": 5.514917373657227,
+      "D_kappa": 79.37838053983704,
+      "unmatched": 7.539279358324479,
+      "transport": 19.0641456732412,
+      "ADJS": 0.09039644598526225
+    },
+    {
+      "stratum": "flat",
+      "n": 92,
+      "model": "persistence",
+      "countMAE": 4.6961140632629395,
+      "D_kappa": 75.45459386567414,
+      "unmatched": 7.170665776878708,
+      "transport": 18.089267650644462,
+      "ADJS": 0.045958150470641355
+    },
+    {
+      "stratum": "flat",
+      "n": 92,
+      "model": "CrowdMAC",
+      "countMAE": 4.796980381011963,
+      "D_kappa": 301.345867477399,
+      "unmatched": 32.00581252977017,
+      "transport": 45.29936723923758,
+      "ADJS": 0.49604609058689975
+    },
+    {
+      "stratum": "flat",
+      "n": 92,
+      "model": "Holt + last",
+      "countMAE": 11.653433799743652,
+      "D_kappa": 117.85135253302053,
+      "unmatched": 13.07695790578621,
+      "transport": 13.235689286730835,
+      "ADJS": 0.9700854672431243
+    },
+    {
+      "stratum": "flat",
+      "n": 92,
+      "model": "Holt + uniform",
+      "countMAE": 11.653433799743652,
+      "D_kappa": 305.45156672072636,
+      "unmatched": 33.28700945341545,
+      "transport": 39.15549109340263,
+      "ADJS": 1.3841899338465682
+    },
+    {
+      "stratum": "moderate",
+      "n": 93,
+      "model": "Stream-CDF",
+      "countMAE": 5.352954387664795,
+      "D_kappa": 87.58741323585369,
+      "unmatched": 7.857148199356045,
+      "transport": 24.730227641005346,
+      "ADJS": 0.09210486868067434
+    },
+    {
+      "stratum": "moderate",
+      "n": 93,
+      "model": "persistence",
+      "countMAE": 5.752777576446533,
+      "D_kappa": 88.27335120119628,
+      "unmatched": 8.325837175052126,
+      "transport": 21.666653800779283,
+      "ADJS": 0.037022583800292753
+    },
+    {
+      "stratum": "moderate",
+      "n": 93,
+      "model": "CrowdMAC",
+      "countMAE": 4.600314617156982,
+      "D_kappa": 348.5302746312796,
+      "unmatched": 37.3610697320684,
+      "transport": 49.641716774732394,
+      "ADJS": 0.4894189360112505
+    },
+    {
+      "stratum": "moderate",
+      "n": 93,
+      "model": "Holt + last",
+      "countMAE": 14.226226806640625,
+      "D_kappa": 142.28280955698872,
+      "unmatched": 15.801700070468508,
+      "transport": 15.869208993240655,
+      "ADJS": 0.2730664857894514
+    },
+    {
+      "stratum": "moderate",
+      "n": 93,
+      "model": "Holt + uniform",
+      "countMAE": 14.226227760314941,
+      "D_kappa": 388.8681924889662,
+      "unmatched": 42.12160125897466,
+      "transport": 51.89538241716881,
+      "ADJS": 0.7535315311451337
+    },
+    {
+      "stratum": "dynamic",
+      "n": 87,
+      "model": "Stream-CDF",
+      "countMAE": 5.068757057189941,
+      "D_kappa": 81.57345278333734,
+      "unmatched": 7.366446334247911,
+      "transport": 22.641882109354043,
+      "ADJS": 0.08195005869754626
+    },
+    {
+      "stratum": "dynamic",
+      "n": 87,
+      "model": "persistence",
+      "countMAE": 5.733092308044434,
+      "D_kappa": 82.09224147429036,
+      "unmatched": 7.951253417659206,
+      "transport": 18.482214133016722,
+      "ADJS": 0.029931168873455666
+    },
+    {
+      "stratum": "dynamic",
+      "n": 87,
+      "model": "CrowdMAC",
+      "countMAE": 5.585561275482178,
+      "D_kappa": 339.36555447607583,
+      "unmatched": 36.66736203700277,
+      "transport": 46.026658180053616,
+      "ADJS": 0.4943987608864087
+    },
+    {
+      "stratum": "dynamic",
+      "n": 87,
+      "model": "Holt + last",
+      "countMAE": 13.931052207946777,
+      "D_kappa": 137.48190549555397,
+      "unmatched": 15.410657750643011,
+      "transport": 14.196643490409915,
+      "ADJS": 0.33783884403245895
+    },
+    {
+      "stratum": "dynamic",
+      "n": 87,
+      "model": "Holt + uniform",
+      "countMAE": 13.931051254272461,
+      "D_kappa": 394.61089651331736,
+      "unmatched": 42.763658078801704,
+      "transport": 52.501631882903744,
+      "ADJS": 0.8190762292210942
+    },
+    {
+      "stratum": "surge",
+      "n": 89,
+      "model": "Stream-CDF",
+      "countMAE": 5.394759654998779,
+      "D_kappa": 80.64706641476418,
+      "unmatched": 7.3546226144503075,
+      "transport": 21.810085499161723,
+      "ADJS": 0.06853461328892534
+    },
+    {
+      "stratum": "surge",
+      "n": 89,
+      "model": "persistence",
+      "countMAE": 6.015537261962891,
+      "D_kappa": 80.19225348521967,
+      "unmatched": 7.730056679004773,
+      "transport": 18.35180005318148,
+      "ADJS": 0.025872713781245688
+    },
+    {
+      "stratum": "surge",
+      "n": 89,
+      "model": "CrowdMAC",
+      "countMAE": 7.436422348022461,
+      "D_kappa": 337.2621713542909,
+      "unmatched": 36.83500309065133,
+      "transport": 42.58214662908033,
+      "ADJS": 0.5012546635867422
+    },
+    {
+      "stratum": "surge",
+      "n": 89,
+      "model": "Holt + last",
+      "countMAE": 10.254034996032715,
+      "D_kappa": 108.6256074117962,
+      "unmatched": 11.62740527913552,
+      "transport": 15.606365178712046,
+      "ADJS": 0.08821036174884006
+    },
+    {
+      "stratum": "surge",
+      "n": 89,
+      "model": "Holt + uniform",
+      "countMAE": 10.254034042358398,
+      "D_kappa": 383.2590307929896,
+      "unmatched": 41.67819507540773,
+      "transport": 49.83347018972784,
+      "ADJS": 0.5930963509140721
+    },
+    {
+      "stratum": "all",
+      "n": 361,
+      "model": "Stream-CDF",
+      "countMAE": 5.3360466957092285,
+      "D_kappa": 82.33495773868079,
+      "unmatched": 7.5339909342703875,
+      "transport": 22.063030264517682,
+      "ADJS": 0.08341125071287456
+    },
+    {
+      "stratum": "all",
+      "n": 361,
+      "model": "persistence",
+      "countMAE": 5.543525218963623,
+      "D_kappa": 81.52459796620799,
+      "unmatched": 7.79428864410101,
+      "transport": 19.17028881339992,
+      "ADJS": 0.03484192065165579
+    },
+    {
+      "stratum": "all",
+      "n": 361,
+      "model": "CrowdMAC",
+      "countMAE": 5.587082862854004,
+      "D_kappa": 331.5187585556238,
+      "unmatched": 35.69941831054965,
+      "transport": 45.92341207122655,
+      "ADJS": 0.4952259242088052
+    },
+    {
+      "stratum": "all",
+      "n": 361,
+      "model": "Holt + last",
+      "countMAE": 12.520126342773438,
+      "D_kappa": 126.60174670249556,
+      "unmatched": 13.983946061038523,
+      "transport": 14.7301782141874,
+      "ADJS": 0.4207361434660862
+    },
+    {
+      "stratum": "all",
+      "n": 361,
+      "model": "Holt + uniform",
+      "countMAE": 12.520126342773438,
+      "D_kappa": 367.6107694654165,
+      "unmatched": 39.91554404810499,
+      "transport": 48.286417080576584,
+      "ADJS": 0.8904961592353722
+    }
+  ]
+}

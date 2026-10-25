@@ -1,0 +1,2 @@
+# Reproduce the paper tables from bundled per-clip predictions (CPU only).
+numpy>=1.24

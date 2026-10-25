@@ -1,0 +1,81 @@
+training:
+  project: CrowdMAC_GCS_FT
+  batch_size: 8
+  epochs: 200
+  seed: 0
+  sigma: 3
+  num_workers: 16
+  pin_mem: true
+  test_per: 10
+  template_size: 201
+  sampling: true
+  temperature: 500
+  obs_mask:
+    mask_type: none
+    warmup_epochs: null
+    curriculum_learning: false
+    mask_ratio: 0.6
+    min_lambda: 0
+    max_lambda: 9
+  pred_mask:
+    mask_type: forecastfuture
+  after_pretraining:
+    apply: false
+    epochs: null
+    obs_mask:
+      mask_type: null
+    pred_mask:
+      mask_type: null
+  use_wandb: false
+  early_stopping:
+    patience: 5
+model:
+  size: small
+  input_size: 80
+  patch_size: 8
+  tublet_size: 4
+  decoder_depth: 4
+  drop_path: 0.0
+  use_checkpoint: false
+  checkpoint: results/stanford_8_12/checkpoint-best.pth
+  den_factor: 100
+optimizer:
+  opt: adamw
+  opt_eps: 1.0e-08
+  opt_betas: null
+  clip_grad: null
+  momentum: 0.9
+  weight_decay: 0.0001
+  lr: 0.0016
+  warmup_lr: 1.0e-06
+  min_lr: 0.00016
+  warmup_steps: -1
+  warmup_epochs: 10
+augmentation:
+  train:
+    RandomHorizontalFlip:
+      apply: true
+      p: 0.5
+    RandomVerticalFlip:
+      apply: true
+      p: 0.5
+    Randomscale:
+      scale_limit: 0.5
+      p: 0.5
+    Randomshift:
+      shift_limit: 0.5
+      p: 0.5
+dataset:
+  datasets:
+  - gcs
+  shuffle: true
+  num_frames: 112
+  device: cuda
+forecast:
+  obs_frames: 76
+  pred_frames: 36
+logger:
+  output_dir: results
+params_tuning:
+  apply: false
+  epochs: null

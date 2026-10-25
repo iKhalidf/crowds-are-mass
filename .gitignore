@@ -1,0 +1,40 @@
+# Original local archives (kept on disk, never published)
+/backup/
+/backup_*/
+/code_backup/
+
+# Datasets, training outputs, weights and local configuration
+/data/
+/annotations/
+/runs/
+/outputs/
+/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npz
+!/results/predictions/**/*.npz
+.env
+.env.*
+!.env.example
+
+# Python and editors
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# LaTeX build products
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk

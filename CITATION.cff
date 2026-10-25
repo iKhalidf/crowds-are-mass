@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite the accompanying manuscript and acknowledge CrowdMAC where applicable."
+type: software
+title: "Crowds Are Mass: Rethinking Evaluation for Crowd Density Forecasting"
+authors:
+  - family-names: AlAmoudi
+    given-names: Khalid
+  - family-names: Bahamid
+    given-names: Alala
+repository-code: "https://github.com/iKhalidf/crowds-are-mass"
+keywords:
+  - crowd density forecasting
+  - unbalanced optimal transport
+  - evaluation
+  - Stream-CDF

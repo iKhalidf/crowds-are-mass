@@ -1,0 +1,190 @@
+{
+  "paper_sha256": "a75071f02aa07066fc3a2ef00b1cc62cffc61fe40dd098a5b0d0995731195fbd",
+  "files": [
+    {
+      "source": "code_backup/Stream-CDF/stream_cdf_v4.py",
+      "destination": "streamcdf/model.py",
+      "source_sha256": "acdaa1f3d402ec2c363471e6606646bb6f0254d3a6916ddbe19dc679a3972280",
+      "destination_sha256": "c8b9e5aa22511c2b14cd8e265a7c1d08f3aa18f32ad0a2a18e72e1b6f6ef0c17"
+    },
+    {
+      "source": "code_backup/Stream-CDF/stream_cdf_fixes.py",
+      "destination": "streamcdf/transport.py",
+      "source_sha256": "c1e5af88976968f981fdc80fb571d6aa31c8bb8d36f26a398850053a1d34630a",
+      "destination_sha256": "4f48f97a96f933679c511bc9d62238e1c1ec3f0c31023300334ee8783ce04f79"
+    },
+    {
+      "source": "code_backup/Stream-CDF/divergence_metrics.py",
+      "destination": "streamcdf/divergence.py",
+      "source_sha256": "4f62c4d5bd03d06c12d70292aea6cf4c1bbb663aa6e6d2bf6c9047c1a695fa80",
+      "destination_sha256": "4f62c4d5bd03d06c12d70292aea6cf4c1bbb663aa6e6d2bf6c9047c1a695fa80"
+    },
+    {
+      "source": "code_backup/Stream-CDF/convlstm.py",
+      "destination": "streamcdf/convlstm.py",
+      "source_sha256": "99cc1fa05db6ba0374b4fba7720849407a1f6015228a993e7d219c481ce1c329",
+      "destination_sha256": "99cc1fa05db6ba0374b4fba7720849407a1f6015228a993e7d219c481ce1c329"
+    },
+    {
+      "source": "code_backup/Stream-CDF/train_v5.py",
+      "destination": "scripts/train.py",
+      "source_sha256": "0f58b88fb6de585a37c78e2323b91fe4b4deb43ae0b03ac36bcd6bbdb9659365",
+      "destination_sha256": "8f52647bdd3891d9fe5a22a4f3e5171e8306d4a896f20fae0dbb2ed1b0ae4546"
+    },
+    {
+      "source": "code_backup/Stream-CDF/eval_only.py",
+      "destination": "scripts/evaluate.py",
+      "source_sha256": "36496eac08b3113a61b204e18e0790efc14b1edf8727da6813ad986f3e66a88f",
+      "destination_sha256": "85d2618d96e83a6d653004a53d2a68672f6202847665cf85f3a34bf4a9a77aa9"
+    },
+    {
+      "source": "code_backup/Stream-CDF/crowdmac_eval.py",
+      "destination": "scripts/evaluate_crowdmac.py",
+      "source_sha256": "6550c5504fe11ceb5b2c4d07564b95cffe8ba7902df6dff247246fe933afcb9e",
+      "destination_sha256": "dcc120e0be8d62cc94fde9e1557848f696683d226e3ffd6efe2e88e6c320e59c"
+    },
+    {
+      "source": "code_backup/Stream-CDF/persistence_baseline.py",
+      "destination": "scripts/persistence.py",
+      "source_sha256": "c17f0f0d5ddc030bbcbe91dfde87f66af7090ea8b21b47fe907d1ea460a29bf2",
+      "destination_sha256": "9b4e6a11799731df616ac97998e2eeee75e631dccae06a7255aeb0397c07c83b"
+    },
+    {
+      "source": "code_backup/Stream-CDF/count_baselines.py",
+      "destination": "scripts/count_baselines.py",
+      "source_sha256": "95d45eb211f87c8cb0792715e5f0a4175963bf296f9784cd3650571fc9a967c1",
+      "destination_sha256": "04f7ba0ee0d8811622ac3996a17cc6a0b115a860598a81b6cadd77c52ea4fb9c"
+    },
+    {
+      "source": "code_backup/Stream-CDF/convert_dots.py",
+      "destination": "scripts/convert_dots.py",
+      "source_sha256": "2777e6016147585acfb5a4e0fcf2d88735e64576e7613804a9768d91f946ba5f",
+      "destination_sha256": "46fd7731ab9e36d4b98a55bbf8635d3452ce8f34232ab692b112ababdf9f4b85"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/cosine_annealing_warmup.py",
+      "destination": "third_party/crowdmac/cosine_annealing_warmup.py",
+      "source_sha256": "d428f231e4fc63762c7ab41efe579f1238a43a1335239d205bc148b23695ee7a",
+      "destination_sha256": "d428f231e4fc63762c7ab41efe579f1238a43a1335239d205bc148b23695ee7a"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/datasets.py",
+      "destination": "third_party/crowdmac/datasets.py",
+      "source_sha256": "7b12136c46c34405b5bf997740b0aa6958ebe6242e7571074053ca391b1482f4",
+      "destination_sha256": "7b12136c46c34405b5bf997740b0aa6958ebe6242e7571074053ca391b1482f4"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/early_stopping.py",
+      "destination": "third_party/crowdmac/early_stopping.py",
+      "source_sha256": "20757f9ba522299e3e862c62fefd2692177dade5177fa79336441f306abe500f",
+      "destination_sha256": "20757f9ba522299e3e862c62fefd2692177dade5177fa79336441f306abe500f"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/helper.py",
+      "destination": "third_party/crowdmac/helper.py",
+      "source_sha256": "99aa3db891ef94f7aefa3a79f7bdf00414f623229f4c376889eac6a3ca45c339",
+      "destination_sha256": "99aa3db891ef94f7aefa3a79f7bdf00414f623229f4c376889eac6a3ca45c339"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/img_size.py",
+      "destination": "third_party/crowdmac/img_size.py",
+      "source_sha256": "6f3ce6da698a91a92f6aec9b640656b87dc4c1e3e62bdcdeff32df2ef426f81d",
+      "destination_sha256": "6f3ce6da698a91a92f6aec9b640656b87dc4c1e3e62bdcdeff32df2ef426f81d"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/layers.py",
+      "destination": "third_party/crowdmac/layers.py",
+      "source_sha256": "e4ded243c60263cee5b083f34d0000e70a35c3e167d9bee134cdd16c0b827cf6",
+      "destination_sha256": "e4ded243c60263cee5b083f34d0000e70a35c3e167d9bee134cdd16c0b827cf6"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/masking_generator.py",
+      "destination": "third_party/crowdmac/masking_generator.py",
+      "source_sha256": "12ef2a99e5e38f6e3af17ba32c52990e3432750639911929cc28722bd5a1e5a7",
+      "destination_sha256": "12ef2a99e5e38f6e3af17ba32c52990e3432750639911929cc28722bd5a1e5a7"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/metrics.py",
+      "destination": "third_party/crowdmac/metrics.py",
+      "source_sha256": "72324f134a3115b13842d67bce1d8cb9a101c0f3c0e5b1b8073764bb915281e6",
+      "destination_sha256": "72324f134a3115b13842d67bce1d8cb9a101c0f3c0e5b1b8073764bb915281e6"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/model.py",
+      "destination": "third_party/crowdmac/model.py",
+      "source_sha256": "aed561027058a13c41f552ec60872d719255faf3c24e51172ca2f04d4ea6dd1c",
+      "destination_sha256": "aed561027058a13c41f552ec60872d719255faf3c24e51172ca2f04d4ea6dd1c"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/optim_factory.py",
+      "destination": "third_party/crowdmac/optim_factory.py",
+      "source_sha256": "f6ef6e8afaf157341610024035e09ed572dd612a62a6f80b45b1a25d2f069604",
+      "destination_sha256": "f6ef6e8afaf157341610024035e09ed572dd612a62a6f80b45b1a25d2f069604"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/train.py",
+      "destination": "third_party/crowdmac/train.py",
+      "source_sha256": "7042072cd5a3414f183ecc62f0a881c93021d43abe336e8af31a380eba70d120",
+      "destination_sha256": "7042072cd5a3414f183ecc62f0a881c93021d43abe336e8af31a380eba70d120"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/transforms.py",
+      "destination": "third_party/crowdmac/transforms.py",
+      "source_sha256": "48396e63f547f8dd213b9128269a8cd1bbb0c08422a1e5dcd3a5a21dbdc62924",
+      "destination_sha256": "48396e63f547f8dd213b9128269a8cd1bbb0c08422a1e5dcd3a5a21dbdc62924"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/utils.py",
+      "destination": "third_party/crowdmac/utils.py",
+      "source_sha256": "6ef09eb1d76e2028328dc0d033ca8fe81aeb7aed1ed0fbc8790edbb00265f26b",
+      "destination_sha256": "6ef09eb1d76e2028328dc0d033ca8fe81aeb7aed1ed0fbc8790edbb00265f26b"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/utils_videomae.py",
+      "destination": "third_party/crowdmac/utils_videomae.py",
+      "source_sha256": "f6aa11fe482c7dd817ed96a530a64a1a582d8e53733adc63e017cf76da8af94c",
+      "destination_sha256": "603afac3e55604a01ce96649ee69b43117acdc4b31ee7feb43dec40f1d9915d3"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/videomae.py",
+      "destination": "third_party/crowdmac/videomae.py",
+      "source_sha256": "7c9e24bb981eda3b261cd8751a4032744b3d01462385a74deb28a89a919277ac",
+      "destination_sha256": "436b80880fb507a04bc301d98b477b0f80c9956390350543df03434f149df3c3"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/configs/config.yaml",
+      "destination": "third_party/crowdmac/configs/config.yaml",
+      "source_sha256": "32f3dbc24d21101340cadaeee09b265fcab5116df9c10569e08d13b614b76b9d",
+      "destination_sha256": "32f3dbc24d21101340cadaeee09b265fcab5116df9c10569e08d13b614b76b9d"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/configs/config_fdst_native.yaml",
+      "destination": "third_party/crowdmac/configs/config_fdst_native.yaml",
+      "source_sha256": "0827ecc8f497f8e062111ea877b8be54f7d71e91a6fcaeb0eb7b1cc078f4898e",
+      "destination_sha256": "0827ecc8f497f8e062111ea877b8be54f7d71e91a6fcaeb0eb7b1cc078f4898e"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/configs/config_gcs.yaml",
+      "destination": "third_party/crowdmac/configs/config_gcs.yaml",
+      "source_sha256": "e464e30e5bda423e920e50e5228928789ae225a58dba457c1334ae5ed1efc367",
+      "destination_sha256": "e464e30e5bda423e920e50e5228928789ae225a58dba457c1334ae5ed1efc367"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/configs/config_gcs_finetune.yaml",
+      "destination": "third_party/crowdmac/configs/config_gcs_finetune.yaml",
+      "source_sha256": "0903ab8702812d6e17860dde36de72196ae576acf059463485c950abf6f40b66",
+      "destination_sha256": "0903ab8702812d6e17860dde36de72196ae576acf059463485c950abf6f40b66"
+    },
+    {
+      "source": "code_backup/CrowdMAC/CrowdMAC/configs/config_sdd_pretrain.yaml",
+      "destination": "third_party/crowdmac/configs/config_sdd_pretrain.yaml",
+      "source_sha256": "4d044fbe74c34e1da304471729f9f335959be1ca17cca55078448c0f969e755b",
+      "destination_sha256": "4d044fbe74c34e1da304471729f9f335959be1ca17cca55078448c0f969e755b"
+    }
+  ],
+  "notes": [
+    "Training/evaluation entrypoints use repository-relative paths and canonical package imports.",
+    "Training defaults reflect the archived GCS run; data-loader workers default to zero for portability.",
+    "Original snapshots remain untouched locally and are excluded from version control."
+  ]
+}

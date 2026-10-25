@@ -1,0 +1,50 @@
+{
+  "description": "Recorded Stream-CDF settings; CLI commands are in README.md.",
+  "training": {
+    "dataset": [
+      "indoor"
+    ],
+    "gcs_step": 1,
+    "horizon": "short",
+    "obs_frames": 8,
+    "pred_frames": 12,
+    "dim": 256,
+    "depth": 4,
+    "heads": 4,
+    "enc_tubelet": 4,
+    "dec_tubelet": 2,
+    "anchor_frames": 4,
+    "dropout": 0.0,
+    "temporal": "absolute",
+    "out_act": "softplus",
+    "kappa": 8.0,
+    "eps": 2.0,
+    "iters": 30,
+    "pool": 2,
+    "out_gain": 10.0,
+    "head_lr_mult": 1.0,
+    "debias": 1,
+    "include_bb": 1,
+    "clip": 750.0,
+    "delta_bound": 50.0,
+    "warmup_steps": 500,
+    "epochs": 40,
+    "batch": 8,
+    "lr": 0.00025,
+    "seed": 0,
+    "arch": "streamcdf",
+    "uniform_anchor": false,
+    "ablate_spatial": false,
+    "hflip": false,
+    "vflip": false,
+    "tag": "job20216"
+  },
+  "evaluation": {
+    "eps": 0.25,
+    "iters": 60,
+    "pool": 1,
+    "dtype": "float64",
+    "debiased": false
+  },
+  "prediction_sha256": "a8743ae9032594e492bfae6080b10232560f9cf223c863708570e1bf5d264f30"
+}

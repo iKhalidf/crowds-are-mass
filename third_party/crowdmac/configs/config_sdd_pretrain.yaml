@@ -1,0 +1,81 @@
+training:
+  project: CrowdMAC_SDD
+  batch_size: 128
+  epochs: 1200
+  seed: 0
+  sigma: 3
+  num_workers: 16
+  pin_mem: true
+  test_per: 50
+  template_size: 201
+  sampling: true
+  temperature: 500
+  obs_mask:
+    mask_type: exp
+    warmup_epochs: null
+    curriculum_learning: false
+    mask_ratio: 0.6
+    min_lambda: 0
+    max_lambda: 9
+  pred_mask:
+    mask_type: forecast_inv_interpolate
+  after_pretraining:
+    apply: false
+    epochs: null
+    obs_mask:
+      mask_type: null
+    pred_mask:
+      mask_type: null
+  use_wandb: false
+  early_stopping:
+    patience: 5
+model:
+  size: small
+  input_size: 80
+  patch_size: 8
+  tublet_size: 4
+  decoder_depth: 4
+  drop_path: 0.0
+  use_checkpoint: false
+  checkpoint: null
+  den_factor: 100
+optimizer:
+  opt: adamw
+  opt_eps: 1.0e-08
+  opt_betas: null
+  clip_grad: null
+  momentum: 0.9
+  weight_decay: 0.0001
+  lr: 0.0005
+  warmup_lr: 1.0e-06
+  min_lr: 5.0e-05
+  warmup_steps: -1
+  warmup_epochs: 60
+augmentation:
+  train:
+    RandomHorizontalFlip:
+      apply: true
+      p: 0.5
+    RandomVerticalFlip:
+      apply: true
+      p: 0.5
+    Randomscale:
+      scale_limit: 0.5
+      p: 0.5
+    Randomshift:
+      shift_limit: 0.5
+      p: 0.5
+dataset:
+  datasets:
+  - stanford
+  shuffle: true
+  num_frames: 20
+  device: cuda
+forecast:
+  obs_frames: 8
+  pred_frames: 12
+logger:
+  output_dir: results
+params_tuning:
+  apply: false
+  epochs: null

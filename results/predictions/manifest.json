@@ -1,0 +1,97 @@
+{
+  "description": "Numeric-only per-clip count series and saved metrics; full density maps are not included.",
+  "kappa": 8,
+  "evaluation": {
+    "eps": 0.25,
+    "iters": 60,
+    "pool": 1,
+    "dtype": "float64",
+    "debiased": false
+  },
+  "datasets": {
+    "gcs": {
+      "streamcdf": {
+        "source_filename": "streamcdf__streamcdf_gcs_short_softplus_gain10_bound50_clip750_s1_seed0_final_preds.npz",
+        "source_sha256": "fbfc681cfff9008d34e46b5a5c80e49a91df37e759029717d4ba42d04b6c8882",
+        "sha256": "67273d874b6328f250f0ef62b41be75a26c1d97a15b99b9217ddc910888dbb43",
+        "clips": 1448,
+        "obs_frames": 8,
+        "pred_frames": 12
+      },
+      "persistence": {
+        "source_filename": "persistence__streamcdf_gcs_short_PERSISTENCE_s1_preds.npz",
+        "source_sha256": "189b64d2f2d512dd64bd1f45c4b986f9bb25882759ed445ae4e8fc9646efe0da",
+        "sha256": "54c71c09d7a59be0bb5a79d30022c0cb4a251cb198beba4426fc02840d442852",
+        "clips": 1448,
+        "obs_frames": 8,
+        "pred_frames": 12
+      },
+      "crowdmac": {
+        "source_filename": "crowdmac__crowdmac_gcs_8_12_s1_preds.npz",
+        "source_sha256": "112428cf936dd7c34c28a99e154be2c7013ce32a3fb8ffcb246b3f8d110a7bbb",
+        "sha256": "5917f55500b65907bcc430c0075d462e45d17b8d68fba28871054e282be6ceb5",
+        "clips": 1448,
+        "obs_frames": 8,
+        "pred_frames": 12
+      },
+      "holt-last": {
+        "source_filename": "holt-last__count-holt-last_gcs_short_s1_preds.npz",
+        "source_sha256": "9f83804103a41f6e3f5f11a572a0496e14adeb596c020a10936802234ce120b3",
+        "sha256": "8672ee90e43d481a24197acb8de940d738bf436d336f03bc851afb2fbd4fca22",
+        "clips": 1448,
+        "obs_frames": 8,
+        "pred_frames": 12
+      },
+      "holt-uniform": {
+        "source_filename": "holt-uniform__count-holt-uniform_gcs_short_s1_preds.npz",
+        "source_sha256": "664bdef62e1fe00bd535068215013d9a4b43ee41968840ef1bdb9df79713b8aa",
+        "sha256": "5ddf2e30749ebf8c6019ae2c4f41ce6cb486c25625e827e528a0b1c206eeb2be",
+        "clips": 1448,
+        "obs_frames": 8,
+        "pred_frames": 12
+      }
+    },
+    "indoor": {
+      "streamcdf": {
+        "source_filename": "streamcdf__streamcdf_indoor_short_softplus_gain10_bound50_clip750_job20216_s1_seed0_final_preds.npz",
+        "source_sha256": "6984e888f1588b1b8e94727732eebd35dc8d7a2b522a42d4175c846f30c4275b",
+        "sha256": "a8743ae9032594e492bfae6080b10232560f9cf223c863708570e1bf5d264f30",
+        "clips": 361,
+        "obs_frames": 8,
+        "pred_frames": 12
+      },
+      "persistence": {
+        "source_filename": "persistence__streamcdf_indoor_short_PERSISTENCE_s1_preds.npz",
+        "source_sha256": "14dc14678ec7a22db72e9000810778278b62f623bbcb36c8afdbae7fce6f5bea",
+        "sha256": "738d940e8f0d59c58563d1acb56a012d384465d3f6564b2686619a784a9c21d0",
+        "clips": 361,
+        "obs_frames": 8,
+        "pred_frames": 12
+      },
+      "crowdmac": {
+        "source_filename": "crowdmac__crowdmac_indoor_8_12_s1_preds.npz",
+        "source_sha256": "011d9aa0f25311479d7b32dced9611903bbf9f1b96c382f1ff332bd7a31afdee",
+        "sha256": "1c9e2be6f9ad1eba1602c2ce58da2ea26de47240ef2f8cfce9de2336d84dce0c",
+        "clips": 361,
+        "obs_frames": 8,
+        "pred_frames": 12
+      },
+      "holt-last": {
+        "source_filename": "holt-last__count-holt-last_indoor_short_s1_preds.npz",
+        "source_sha256": "73af5a772417d1f7cf1f8bbd08eb6e9e9600678841f9d7324e31b66275407038",
+        "sha256": "de977733547a847841fbc7358831c78c2cb8dc2ae30a0769b59ef62f197bb88a",
+        "clips": 361,
+        "obs_frames": 8,
+        "pred_frames": 12
+      },
+      "holt-uniform": {
+        "source_filename": "holt-uniform__count-holt-uniform_indoor_short_s1_preds.npz",
+        "source_sha256": "54b61598bf154d54fb3cb611e9769796880e4ef60b1bb3a430cb1933e6f10af1",
+        "sha256": "b867c515489c74ff3a2a2c521eaf410c504c951b305ea23d03cae853c848b312",
+        "clips": 361,
+        "obs_frames": 8,
+        "pred_frames": 12
+      }
+    }
+  }
+}
